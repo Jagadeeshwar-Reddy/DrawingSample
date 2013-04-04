@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SmoothedBIView.h"
+#import "CustomButton.h"
+@interface ViewController : UIViewController <DrawingBoardDelegate>
+@property (retain, nonatomic) IBOutlet SmoothedBIView *paint_board;
+@property (retain, nonatomic) IBOutlet CustomButton *done_btn;
 
-@interface ViewController : UIViewController
-
+- (IBAction)btnAction:(UIButton *)sender;
 @end

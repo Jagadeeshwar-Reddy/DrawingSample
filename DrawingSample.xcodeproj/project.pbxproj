@@ -18,6 +18,13 @@
 		499C180F16D61155005311D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 499C180E16D61155005311D7 /* Default-568h@2x.png */; };
 		499C181216D61155005311D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499C181116D61155005311D7 /* ViewController.m */; };
 		499C181516D61155005311D7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 499C181316D61155005311D7 /* ViewController.xib */; };
+		499C182916D614D1005311D7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 499C182816D614D1005311D7 /* UIImage+Resize.m */; };
+		499C182C16D619D9005311D7 /* UIImage+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 499C182B16D619D9005311D7 /* UIImage+Trim.m */; };
+		D4133EBB16F73DE700D1A198 /* ImageEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4133EBA16F73DE700D1A198 /* ImageEditorView.m */; };
+		D4133EC016F73EC200D1A198 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D4133EBF16F73EC200D1A198 /* logo.png */; };
+		D420C901170C3C9C00E3A57A /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D420C900170C3C9C00E3A57A /* CustomButton.m */; };
+		D420C903170C3D0300E3A57A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D420C902170C3D0300E3A57A /* QuartzCore.framework */; };
+		D4DBDC5016F86A6900B6EA71 /* SmoothedBIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DBDC4F16F86A6900B6EA71 /* SmoothedBIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,18 @@
 		499C181016D61155005311D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		499C181116D61155005311D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		499C181416D61155005311D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		499C182716D614D1005311D7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		499C182816D614D1005311D7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		499C182A16D619D9005311D7 /* UIImage+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Trim.h"; sourceTree = "<group>"; };
+		499C182B16D619D9005311D7 /* UIImage+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Trim.m"; sourceTree = "<group>"; };
+		D4133EB916F73DE700D1A198 /* ImageEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEditorView.h; sourceTree = "<group>"; };
+		D4133EBA16F73DE700D1A198 /* ImageEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEditorView.m; sourceTree = "<group>"; };
+		D4133EBF16F73EC200D1A198 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D420C8FF170C3C9C00E3A57A /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = DrawingSample/CustomButton.h; sourceTree = "<group>"; };
+		D420C900170C3C9C00E3A57A /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = DrawingSample/CustomButton.m; sourceTree = "<group>"; };
+		D420C902170C3D0300E3A57A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4DBDC4E16F86A6900B6EA71 /* SmoothedBIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothedBIView.h; sourceTree = "<group>"; };
+		D4DBDC4F16F86A6900B6EA71 /* SmoothedBIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothedBIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D420C903170C3D0300E3A57A /* QuartzCore.framework in Frameworks */,
 				499C17F916D61154005311D7 /* UIKit.framework in Frameworks */,
 				499C17FB16D61154005311D7 /* Foundation.framework in Frameworks */,
 				499C17FD16D61154005311D7 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +76,8 @@
 		499C17E916D61154005311D7 = {
 			isa = PBXGroup;
 			children = (
+				D420C8FF170C3C9C00E3A57A /* CustomButton.h */,
+				D420C900170C3C9C00E3A57A /* CustomButton.m */,
 				499C17FE16D61154005311D7 /* DrawingSample */,
 				499C17F716D61154005311D7 /* Frameworks */,
 				499C17F516D61154005311D7 /* Products */,
@@ -73,6 +95,7 @@
 		499C17F716D61154005311D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D420C902170C3D0300E3A57A /* QuartzCore.framework */,
 				499C17F816D61154005311D7 /* UIKit.framework */,
 				499C17FA16D61154005311D7 /* Foundation.framework */,
 				499C17FC16D61154005311D7 /* CoreGraphics.framework */,
@@ -83,12 +106,16 @@
 		499C17FE16D61154005311D7 /* DrawingSample */ = {
 			isa = PBXGroup;
 			children = (
+				D4133EB516F73D4800D1A198 /* Helpers */,
 				499C180716D61154005311D7 /* AppDelegate.h */,
 				499C180816D61154005311D7 /* AppDelegate.m */,
 				499C181016D61155005311D7 /* ViewController.h */,
 				499C181116D61155005311D7 /* ViewController.m */,
 				499C181316D61155005311D7 /* ViewController.xib */,
+				D4133EBF16F73EC200D1A198 /* logo.png */,
 				499C17FF16D61154005311D7 /* Supporting Files */,
+				D4133EB916F73DE700D1A198 /* ImageEditorView.h */,
+				D4133EBA16F73DE700D1A198 /* ImageEditorView.m */,
 			);
 			path = DrawingSample;
 			sourceTree = "<group>";
@@ -105,6 +132,19 @@
 				499C180E16D61155005311D7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4133EB516F73D4800D1A198 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				499C182A16D619D9005311D7 /* UIImage+Trim.h */,
+				499C182B16D619D9005311D7 /* UIImage+Trim.m */,
+				499C182716D614D1005311D7 /* UIImage+Resize.h */,
+				499C182816D614D1005311D7 /* UIImage+Resize.m */,
+				D4DBDC4E16F86A6900B6EA71 /* SmoothedBIView.h */,
+				D4DBDC4F16F86A6900B6EA71 /* SmoothedBIView.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +203,7 @@
 				499C180D16D61155005311D7 /* Default@2x.png in Resources */,
 				499C180F16D61155005311D7 /* Default-568h@2x.png in Resources */,
 				499C181516D61155005311D7 /* ViewController.xib in Resources */,
+				D4133EC016F73EC200D1A198 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +217,11 @@
 				499C180516D61154005311D7 /* main.m in Sources */,
 				499C180916D61154005311D7 /* AppDelegate.m in Sources */,
 				499C181216D61155005311D7 /* ViewController.m in Sources */,
+				499C182916D614D1005311D7 /* UIImage+Resize.m in Sources */,
+				499C182C16D619D9005311D7 /* UIImage+Trim.m in Sources */,
+				D4133EBB16F73DE700D1A198 /* ImageEditorView.m in Sources */,
+				D4DBDC5016F86A6900B6EA71 /* SmoothedBIView.m in Sources */,
+				D420C901170C3C9C00E3A57A /* CustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +336,7 @@
 				499C181A16D61155005311D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
